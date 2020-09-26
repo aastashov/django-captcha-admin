@@ -1,0 +1,11 @@
+# http://editorconfig.org
+
+root = true
+
+[*.{py, rst, ini}]
+indent_style = space
+indent_size = 4
+
+[*.{html, css, scss, json, yml}]
+indent_style = space
+indent_size = 2

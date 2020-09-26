@@ -9,7 +9,7 @@ Simple way to add a ReCaptcha_ field to your admin login page.
 
 1. Install ``django-captcha-admin`` from pypi::
 
-     $> pip install django-captcha-admin
+     $> pip install -r git+ssh://git@github.com/aastashov/django-captcha-admin.git#egg=django-captcha-admin
 
 2. Add ``captcha_admin`` and ``captcha`` to your ``INSTALLED_APPS``::
 

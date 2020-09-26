@@ -5,8 +5,9 @@ __maintainer__ = u'Micah Mangione'
 __email__ = 'micah@connectio.us'
 __status__ = 'RC'
 
+
 def get_version(version=VERSION):
-    "Returns a PEP 386-compliant version number from VERSION."
+    """ Returns a PEP 386-compliant version number from VERSION. """
     if version is None:
         return '0.0'
     else:
